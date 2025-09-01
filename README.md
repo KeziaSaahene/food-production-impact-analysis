@@ -16,25 +16,32 @@ The goal is to uncover patterns, highlight sustainability challenges, and provid
 The dataset Food_Production.csv contains information on environmental impacts of producing various food products. It has 43 rows (food items) and 23 columns (impact metrics). 
 
 # Key Features 
-- **Food product – Name of the food item.
-- **Land use change, Animal Feed, Farm, Processing, Transport, Packaging, Retail – Breakdown of emissions (kgCO₂eq) by production stage.
-- **Total_emissions – Overall greenhouse gas emissions per food item.
-- **Eutrophying emissions – Nutrient pollution (gPO₄eq), reported per:
-- 1000 kcal
-- 1 kilogram
-- 100g protein
-- **Freshwater withdrawals – Water use (liters), reported per:
-- 1000 kcal
-- 1 kilogram
-- 100g protein
-- **Greenhouse gas emissions – Climate impact (kgCO₂eq), reported per:
-- 1000 kcal
-- 100g protein
-- **Land use – Agricultural land required (m²), reported per:
-- 1000 kcal
-- 1 kilogram
-- 100g protein
-- **Scarcity-weighted water use – Adjusted water footprint (liters), reported per:
-- 1 kilogram
-- 100g protein
-- 1000 kcal
+- Food product – Name of the food item.
+
+- Land use change, Animal Feed, Farm, Processing, Transport, Packaging, Retail – Breakdown of emissions (kgCO₂eq) by production stage.
+
+- Total_emissions – Overall greenhouse gas emissions per food item.
+
+- Eutrophying emissions – Nutrient pollution (gPO₄eq), reported per:
+1000 kcal
+1 kilogram
+100g protein
+
+- Freshwater withdrawals – Water use (liters), reported per:
+1000 kcal
+1 kilogram
+100g protein
+
+- Greenhouse gas emissions – Climate impact (kgCO₂eq), reported per:
+1000 kcal
+100g protein
+
+- Land use – Agricultural land required (m²), reported per:
+1000 kcal
+1 kilogram
+100g protein
+
+- Scarcity-weighted water use – Adjusted water footprint (liters), reported per:
+1 kilogram
+100g protein
+1000 kcal
