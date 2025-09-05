@@ -45,3 +45,7 @@ The dataset Food_Production.csv contains information on environmental impacts of
 1 kilogram
 100g protein
 1000 kcal
+
+# Data Preparation
+
+# Analysis
