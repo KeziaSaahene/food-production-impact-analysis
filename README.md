@@ -47,5 +47,33 @@ The dataset Food_Production.csv contains information on environmental impacts of
 1000 kcal
 
 # Data Preparation
+- Initial Inspection
+Checked dataset shape and column names
+Displayed first few rows for preview
+Used df.info() to examine data types and null counts
+
+- Duplicate Check
+Counted duplicate rows with df.duplicated().sum()
+No duplicates found
+
+- Missing Value Detection
+Counted missing values per column with df.isnull().sum()
+Identified rows containing missing values
+Created a map linking each food product to the columns where values were missing
+
+- Imputation Strategy
+Focused only on numeric columns (excluding the Food product column)
+Standardized numeric data with StandardScaler
+Applied KNN Imputer (k=5) to estimate missing values based on the closest neighbors
+Inverse transformed the data back to its original scale
+
+- Post-Cleaning Validation
+Replaced missing values in the original DataFrame
+Verified that all missing values were successfully imputed (df.isnull().sum() shows 0)
+
+- Saved the final cleaned dataset as:
+food_emissions_imputed.csv
+
+
 
 # Analysis
