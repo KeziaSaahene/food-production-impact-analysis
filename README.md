@@ -61,8 +61,8 @@ Counted missing values per column with df.isnull().sum()
 Identified rows containing missing values
 Created a map linking each food product to the columns where values were missing
 
-- Imputation Strategy
-- For some food products, missing values were **manually filled in using reference data from *Our World in Data***
+- Imputation Strategy:
+  For some food products, missing values were **manually filled in using reference data from *Our World in Data***
 
 - Remaining numeric gaps were handled using **KNN Imputation (k=5)** with scaled features
 Standardized numeric data with StandardScaler
