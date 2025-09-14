@@ -12,6 +12,19 @@ The goal is to uncover patterns, highlight sustainability challenges, and provid
 - **Python (Pandas, NumPy, Matplotlib, Seaborn)** – Data cleaning and visualization.   
 - **Power BI / Tableau (optional)** – Dashboards for stakeholder insights.  
 
+# Business Questions 
+•	Which foods contribute most to nutrient pollution of water bodies (eutrophication)?
+•	Which foods produce the highest greenhouse gas emissions per calorie consumed?
+•	Which specific foods are the largest contributors to greenhouse gas emissions?
+•	How do plant-based foods compare with animal-based foods across environmental indicators?
+•	Which food categories account for the highest total emissions?
+•	What is the overall environmental footprint of food production?
+•	Which foods are most water-intensive to produce?
+•	What food products should be deprioritized or regulated to prevent soil and water degradation?
+•	Which stage (primary production vs supply chain) contributes the most to emissions?
+• Which foods generate the most emissions during processing stages?
+
+
 # Data Understanding  
 The dataset Food_Production.csv contains information on environmental impacts of producing various food products. It has 43 rows (food items) and 23 columns (impact metrics). 
 
@@ -74,7 +87,6 @@ Verified that all missing values were successfully imputed (df.isnull().sum() sh
 
 - Saved the final cleaned dataset as:
 food_emissions_imputed.csv
-
 
 
 # Analysis
