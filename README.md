@@ -9,8 +9,8 @@ Food production significantly affects the environment, contributing to climate c
 The goal is to uncover patterns, highlight sustainability challenges, and provide **data-driven recommendations** for policymakers, producers, and consumers.  
 
 # Tools  
-- **Python (Pandas, NumPy, Matplotlib, Seaborn)** – Data cleaning and visualization.   
-- **Power BI / Tableau (optional)** – Dashboards for stakeholder insights.  
+- **Python (Pandas, NumPy)** – Data cleaning  
+- **Tableau (optional)**
 
 # Business Questions 
 •	Which foods contribute most to nutrient pollution of water bodies (eutrophication)?
