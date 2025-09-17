@@ -14,8 +14,8 @@ The goal is to uncover patterns, highlight sustainability challenges, and provid
 
 # Business Questions 
 •	Which foods contribute most to nutrient pollution of water bodies (eutrophication)?
-•	Which foods produce the highest greenhouse gas emissions per calorie consumed?
-•	Which specific foods are the largest contributors to greenhouse gas emissions?
+•	Which foods produce the highest greenhouse gas emissions per their nutritional value (per kcal or per 100g protein)?
+•	Which foods demand the most land per kilogram produced?
 •	How do plant-based foods compare with animal-based foods across environmental indicators?
 •	Which food categories account for the highest total emissions?
 •	What is the overall environmental footprint of food production?
