@@ -88,5 +88,14 @@ Verified that all missing values were successfully imputed (df.isnull().sum() sh
 - Saved the final cleaned dataset as:
 food_emissions_imputed.csv
 
+- Grouped foods into:
+	•	10 detailed categories (e.g., Dairy, Meat, Vegetables, Grains, Oils, etc.).
+	•	2 broad categories: Plant-based vs. Animal-based.
 
 # Analysis
+- Animal-based foods generally show much higher greenhouse gas emissions, water usage, and land use compared to plant-based foods.
+- Beef and lamb drive the highest total emissions across all categories.
+- Plant-based proteins (beans, peas, nuts) provide lower environmental impact per 100g protein.
+- Trade-offs identified:
+- Nuts = higher water use but low emissions.
+- Rice = relatively low protein density but significant water footprint
